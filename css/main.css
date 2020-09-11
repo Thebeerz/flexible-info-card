@@ -12,7 +12,8 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -20,11 +21,46 @@ html {
 }
 
 body {
-  background-color: #444;
+  background-color: #777;
   margin: 0;
 }
 
-section {
+img {
+  display: block;
+  width: 5rem;
+}
+
+li {
   display: flex;
-  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  background-color: #444;
+  color: #fff;
+  padding: .5rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* li {
+  justify-content: flex-start;
+} */
+
+h2 {
+  padding: 2rem;
+  text-align: center;
+}
+
+hgroup {
+  width: 16rem;
+}
+
+p {
+  width: 24rem;
 }
