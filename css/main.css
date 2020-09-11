@@ -12,7 +12,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5;
 }
 
@@ -21,14 +21,13 @@ html {
 }
 
 body {
-  background-color: #777;
+  background-color: #ccc;
   margin: 0;
 }
 
 img {
   display: block;
   width: 5rem;
-  margin: 1.5rem;
 }
 
 li {
@@ -42,21 +41,17 @@ a {
   text-decoration: none;
   background-color: #444;
   color: #fff;
-  padding: .5rem;
-  width: 7rem;
+  padding: .5rem 1rem .6rem;
 }
 
 ul {
+  padding: 0;
   list-style-type: none;
 }
 
-/* li {
-  justify-content: flex-start;
-} */
-
 h2 {
-  padding: 2rem;
   text-align: center;
+  padding: 2rem 0 0;
 }
 
 hgroup {
